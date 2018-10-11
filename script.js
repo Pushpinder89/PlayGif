@@ -7,7 +7,7 @@ $(document).ready(function() {
     ];
   
     // function to make buttons and add to page
-    function populateButtons(arrayToUse, classToAdd, areaToAddTo) {
+    function buttons(arrayToUse, classToAdd, areaToAddTo) {
       $(areaToAddTo).empty();
   
       for (var i = 0; i < arrayToUse.length; i++) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
       $(this).addClass("active");
   
       var type = $(this).attr("data-type");
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=dc6zaTOxFJmzC&limit=10";
+      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=SpTwU4nif3JxrWaG1H8qZGWvP1aw0VyQ";
   
       $.ajax({
         url: queryURL,
@@ -82,10 +82,10 @@ $(document).ready(function() {
         fruit.push(newFruit);
       }
   
-      populateButtons(fruit, "fruitBtn", "#fruitBtns");
+      buttons(fruit, "fruitBtn", "#fruitBtns");
   
     });
   
-    populateButtons(fruit, "fruitBtn", "#fruitBtns");
+    buttons(fruit, "fruitBtn", "#fruitBtns");
   });
   
