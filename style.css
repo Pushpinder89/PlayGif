@@ -1,4 +1,74 @@
-body {
+html, body {
+  background: url(./images/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+ 
+}
+.container {
+background-color: #fff;
+opacity: 0.9;
+padding: 20px;
+}
+
+.jumbotron {
+  background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+  text-align: center;
+}
+#gifBtn{
+  height:20%;
+}
+
+#gifsHere{
+  background-color: #fff;
+}
+#input-box{
+  background-color:azure;
+}
+#action-input{
+  width:100%;
+}
+input{
+  margin:3%;
+  width:70%;
+}
+img{
+  max-width: 100%;
+}
+.big-container{
+  margin-top: 5%;
+}
+.text-center{
+  color: white;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: red;
+}
+.image{
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     font: 18px arial, sans-serif;
     background: #eee;
   }
@@ -53,4 +123,4 @@ body {
   button.active {
     background: #334e4d;
   }
-  
+   */
